@@ -13,7 +13,7 @@ npm run dev
 yarn dev
 ```
 
-Desenvolvido por Lucas Azael Linhares Soare
+Desenvolvido por Lucas Azael Linhares Soares
 
 
 ## Instruções de commit 
