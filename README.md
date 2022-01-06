@@ -1,5 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Esse é um projeto da Monteiro Miranda imobiliária e construtura. Nesta aplicação mantemos duas página, uma voltada a constrututora e outra voltada a imobiliária. 
 
+## Framework
+
+Esta aplicação é construída em ReactJs e usa NextJs como framework.
 ## Getting Started
 
 First, run the development server:
@@ -10,25 +13,21 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Desenvolvido por Lucas Azael Linhares Soares
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Instruções de commit 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+ - Deve ser criado para cada feature uma branch a partir da main do tipo:
 
-## Learn More
+	```
+	feature/{nome_da_feature}
+	```
+- Para desenvolvimento de uma tarefa relacionado a feature deve se criar uma branch do tipo:
 
-To learn more about Next.js, take a look at the following resources:
+	```
+	suas_inicias/{nome da tarefa}
+	```
+- Para subir o código deve ser feito uma pula request da sua branch para a feature desejada 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Após aprovação da PR solicitar ao administrador o emerge com a branch main
